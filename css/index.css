@@ -128,6 +128,7 @@ a{
     padding-right: 0;
 }
 
+
 footer {
     width: 100%;
     background: black;
@@ -146,7 +147,59 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* About page */
+.middle-content-about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.middle-content-about-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+
+.card-container {
+    width: 48%;
+}
+
+.card-container .card-1 {
+    margin-left: 2%;
+}
+
+.card-container .card-2 {
+    margin-right: 2%;
+}
+
+.card-container div {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.card-container div a {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.card-container div h2 {
+    margin-top: 10px;
+}
+
+.conclusion-space {
+    margin-top: 6%;
+    margin-left: 1.5%;
+    margin-bottom: 4%;
+}
+
 /* box color */
+
 #box1{
     background-color: teal;
 }
