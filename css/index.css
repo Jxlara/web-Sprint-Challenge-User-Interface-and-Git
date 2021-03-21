@@ -189,14 +189,10 @@ div nav {
     margin: 20px 0;
 }
 
-div nav a {
-    margin-top: 5px;
-}
-
-div nav img {
+.mb-2 {
     margin-bottom: 20px;
 }
 
-header img {
-    margin-bottom: 20px;
+.mb-1_2 {
+    margin-top: 5px; 
 }
